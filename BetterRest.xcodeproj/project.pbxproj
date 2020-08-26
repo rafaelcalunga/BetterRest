@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D0BA46524F6041700C1457F /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6D0BA46424F6041700C1457F /* SleepCalculator.mlmodel */; };
 		6D59FD7E24F21FDE003E055B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D59FD7D24F21FDE003E055B /* AppDelegate.swift */; };
 		6D59FD8024F21FDE003E055B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D59FD7F24F21FDE003E055B /* SceneDelegate.swift */; };
 		6D59FD8224F21FDE003E055B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D59FD8124F21FDE003E055B /* ContentView.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D0BA46424F6041700C1457F /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SleepCalculator.mlmodel; path = "../../../Documents/Development/Machine Learning/CreateML/BetterRest/SleepCalculator.mlmodel"; sourceTree = "<group>"; };
 		6D59FD7A24F21FDE003E055B /* BetterRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D59FD7D24F21FDE003E055B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D59FD7F24F21FDE003E055B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				6D59FD8324F21FE0003E055B /* Assets.xcassets */,
 				6D59FD8824F21FE0003E055B /* LaunchScreen.storyboard */,
 				6D59FD8B24F21FE0003E055B /* Info.plist */,
+				6D0BA46424F6041700C1457F /* SleepCalculator.mlmodel */,
 				6D59FD8524F21FE0003E055B /* Preview Content */,
 			);
 			path = BetterRest;
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D0BA46524F6041700C1457F /* SleepCalculator.mlmodel in Sources */,
 				6D59FD7E24F21FDE003E055B /* AppDelegate.swift in Sources */,
 				6D59FD8024F21FDE003E055B /* SceneDelegate.swift in Sources */,
 				6D59FD8224F21FDE003E055B /* ContentView.swift in Sources */,
