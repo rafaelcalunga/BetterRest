@@ -51,6 +51,7 @@
 		6D59FD9B24F21FE0003E055B /* BetterRestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterRestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D59FD9F24F21FE0003E055B /* BetterRestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestUITests.swift; sourceTree = "<group>"; };
 		6D59FDA124F21FE0003E055B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DF099192504283500A6CBCB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 		6D59FD7124F21FDE003E055B = {
 			isa = PBXGroup;
 			children = (
+				6DF099192504283500A6CBCB /* README.md */,
 				6D59FD7C24F21FDE003E055B /* BetterRest */,
 				6D59FD9324F21FE0003E055B /* BetterRestTests */,
 				6D59FD9E24F21FE0003E055B /* BetterRestUITests */,
