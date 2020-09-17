@@ -70,11 +70,6 @@ struct ContentView: View {
                             Text("\(coffeeAmount) cups")
                         }
                     }
-                    /*Picker("Cups of cofee", selection: $coffeeAmount) {
-                        ForEach(0..<21) {
-                            Text("\($0) \($0 <= 1 ? "cup" : "cups")")
-                        }.navigationBarTitle("Cups of cofee")
-                    }*/
                     .navigationBarTitle("BetterRest")
                 }
                 

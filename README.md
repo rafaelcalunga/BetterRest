@@ -21,4 +21,4 @@ I learned how to:
 - Train a model with Create ML
 - Connect SwiftUI to Core ML
 
-This app was made using the course "100 Days of SwiftUI" from [Hacking With Swift](https://www.hackingwithswift.com/100/swiftui/)
+This app was made using the course **100 Days of SwiftUI** from [Hacking With Swift](https://www.hackingwithswift.com/100/swiftui/)

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6D0BA46524F6041700C1457F /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6D0BA46424F6041700C1457F /* SleepCalculator.mlmodel */; };
+		6D1BBA8125140F2700226982 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6D1BBA8025140F2700226982 /* SleepCalculator.mlmodel */; };
 		6D59FD7E24F21FDE003E055B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D59FD7D24F21FDE003E055B /* AppDelegate.swift */; };
 		6D59FD8024F21FDE003E055B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D59FD7F24F21FDE003E055B /* SceneDelegate.swift */; };
 		6D59FD8224F21FDE003E055B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D59FD8124F21FDE003E055B /* ContentView.swift */; };
@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6D0BA46424F6041700C1457F /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SleepCalculator.mlmodel; path = "../../../Documents/Development/Machine Learning/CreateML/BetterRest/SleepCalculator.mlmodel"; sourceTree = "<group>"; };
+		6D1BBA8025140F2700226982 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 		6D59FD7A24F21FDE003E055B /* BetterRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D59FD7D24F21FDE003E055B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D59FD7F24F21FDE003E055B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,11 +82,11 @@
 		6D59FD7124F21FDE003E055B = {
 			isa = PBXGroup;
 			children = (
-				6DF099192504283500A6CBCB /* README.md */,
 				6D59FD7C24F21FDE003E055B /* BetterRest */,
 				6D59FD9324F21FE0003E055B /* BetterRestTests */,
 				6D59FD9E24F21FE0003E055B /* BetterRestUITests */,
 				6D59FD7B24F21FDE003E055B /* Products */,
+				6DF099192504283500A6CBCB /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,7 +109,7 @@
 				6D59FD8324F21FE0003E055B /* Assets.xcassets */,
 				6D59FD8824F21FE0003E055B /* LaunchScreen.storyboard */,
 				6D59FD8B24F21FE0003E055B /* Info.plist */,
-				6D0BA46424F6041700C1457F /* SleepCalculator.mlmodel */,
+				6D1BBA8025140F2700226982 /* SleepCalculator.mlmodel */,
 				6D59FD8524F21FE0003E055B /* Preview Content */,
 			);
 			path = BetterRest;
@@ -204,7 +204,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Rafael Calunga";
 				TargetAttributes = {
 					6D59FD7924F21FDE003E055B = {
@@ -272,9 +272,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D0BA46524F6041700C1457F /* SleepCalculator.mlmodel in Sources */,
 				6D59FD7E24F21FDE003E055B /* AppDelegate.swift in Sources */,
 				6D59FD8024F21FDE003E055B /* SceneDelegate.swift in Sources */,
+				6D1BBA8125140F2700226982 /* SleepCalculator.mlmodel in Sources */,
 				6D59FD8224F21FDE003E055B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,6 +348,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -372,7 +373,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -408,6 +409,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -426,7 +428,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
