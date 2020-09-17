@@ -14,10 +14,6 @@ struct ContentView: View {
     @State private var sleepAmount = 8.0
     @State private var coffeeAmount = 1
     
-    @State private var alertTitle = ""
-    @State private var alertMessage = ""
-    @State private var showingAlert = false
-    
     static var defaultWakeTime: Date {
         var components = DateComponents()
         components.hour = 7
@@ -51,9 +47,8 @@ struct ContentView: View {
         NavigationView {
             Form {
                 Section(header: Text("WHEN DO YOU WANT TO WAKE UP?")) {
-                    DatePicker("Please enter a time", selection: $wakeUp, displayedComponents: .hourAndMinute)
-                        .labelsHidden()
-                        .datePickerStyle(WheelDatePickerStyle())
+                    DatePicker("Time", selection: $wakeUp, displayedComponents: .hourAndMinute)
+                        .datePickerStyle(CompactDatePickerStyle())
                 }
                 
                 Section(header: Text("DESIRED AMOUNT OF SLEEP")) {
@@ -70,7 +65,6 @@ struct ContentView: View {
                             Text("\(coffeeAmount) cups")
                         }
                     }
-                    .navigationBarTitle("BetterRest")
                 }
                 
                 Section(header: Text("IDEAL BEDTIME")) {
@@ -82,9 +76,6 @@ struct ContentView: View {
                 }
             }
             .navigationBarTitle("BetterRest")
-            .alert(isPresented: $showingAlert) {
-                Alert(title: Text(alertTitle), message: Text(alertMessage), dismissButton: .default(Text("OK")))
-            }
         }
     }
 }
